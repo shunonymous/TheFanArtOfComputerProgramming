@@ -1,0 +1,20 @@
+--- BirthdayForSisterClaire2021.cpp	2021-10-01 22:13:47.519556904 +0900
++++ zange.cpp	2021-10-02 20:10:57.396257808 +0900
+@@ -3,6 +3,8 @@
+ // 君だけの最強のシスター・クレアの配信タイトルを作ろう!(?)
+ //
+ // Authored by Shun Terabayashi <shunonymous@gmail.com>
++//
++// 懺悔パッチ!懺悔懺悔!
+ 
+ #include <iostream>
+ #include <string>
+@@ -102,7 +104,7 @@
+     std::bernoulli_distribution dist(0.3);
+     bool result = dist(engine);
+ 
+-    return true;
++    return result;
+ }
+ 
+ std::string_view StreamTitleGenerator::getGame()
